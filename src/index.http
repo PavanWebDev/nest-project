@@ -5,7 +5,7 @@ GET http://localhost:5000/goodbye
 ###
 
 GET http://localhost:5000/profile
-Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Nzg1MTUyMzUsImV4cCI6MTY3ODUxNTM1NX0.xhQhrR6ig-QbhfBMbx58TLc3IXVKU9-V_LT3SqB8GTU"
+Authorization: "Bearer token"
 ###
 
 POST http://localhost:5000/auth/login
