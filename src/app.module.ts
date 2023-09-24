@@ -15,7 +15,7 @@ import { UserSchema } from './schema/user.schema';
 
 
 @Module({
-  imports: [ MongooseModule.forRoot('mongodb+srv://pavanca97:la0xi8Q2NySPvXSF@cluster0.zbvv4c2.mongodb.net/test'), MongooseModule.forFeature([{name: 'User', schema: UserSchema}]), PassportModule, JwtModule.register({
+  imports: [ MongooseModule.forRoot('mongodb+srv://pavanca97:******************.z8***c2.mongodb.net/test'), MongooseModule.forFeature([{name: 'User', schema: UserSchema}]), PassportModule, JwtModule.register({
     secret: 'TOP_SECRET',
     signOptions: {expiresIn: "1h"}
   })],
